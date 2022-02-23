@@ -4,7 +4,7 @@
   "description": "In this example we will reorganize the project architecture following a pod approach.",
   "main": "index.js",
   "scripts": {
-    "start": "npm run start:dev",
+    "start": "npm run --openssl-legacy-provider start:dev",
     "start:dev": "nodemon --watch webpack.*.js --exec \"webpack-dev-server --config webpack.dev.js\"",
     "start:prod": "nodemon --watch webpack.*.js --exec \"webpack-dev-server --config webpack.prod.js\"",
     "build": "npm run build:dev",
