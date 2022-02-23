@@ -12,7 +12,7 @@
       ci:
         runs-on: ubuntu-latest
         container:
-          image: node:16
+          image: node
   
         steps:
           - uses: actions/checkout@v1
